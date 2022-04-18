@@ -1,0 +1,32 @@
+*,*::before, *::after
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+body
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: cadetblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+.Text
+    {
+        text-align: right;
+        font-size: 25px;
+    }
+
+.Buttons button{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: #0c2835;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    margin: 10px 0 0 8px;
+}
